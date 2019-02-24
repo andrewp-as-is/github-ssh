@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
 [![](https://img.shields.io/pypi/v/github-ssh.svg?maxAge=3600)](https://pypi.org/project/github-ssh/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/github-ssh.svg?branch=master)](https://travis-ci.org/looking-for-a-job/github-ssh/)
 
@@ -7,7 +8,7 @@ $ [sudo] pip install github-ssh
 ```
 
 #### Features
-manage **multiple github accounts** ssh
+**github multiple ssh keys**
 
 #### How it works
 +   creates ssh key files, ssh config file, copies public key to clipboard and opens [github settings -> SSH keys](https://github.com/settings/keys)
