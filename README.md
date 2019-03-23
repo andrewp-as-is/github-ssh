@@ -1,8 +1,16 @@
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
 [![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
 [![](https://img.shields.io/pypi/v/github-ssh.svg?maxAge=3600)](https://pypi.org/project/github-ssh/)
+[![](https://img.shields.io/npm/v/github-ssh.svg?maxAge=3600)](https://www.npmjs.com/package/github-ssh)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/github-ssh.svg?branch=master)](https://travis-ci.org/looking-for-a-job/github-ssh/)
 
-#### Install
+#### Installation
+```bash
+$ [sudo] npm i -g github-ssh
+```
 ```bash
 $ [sudo] pip install github-ssh
 ```
@@ -47,4 +55,6 @@ $ git remote add github git@username.github.com:username/repo.git
 #### Links
 +   [github settings -> SSH keys](https://github.com/settings/keys)
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>

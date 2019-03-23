@@ -1,0 +1,14 @@
+{
+  "name": "github-ssh",
+  "version": "2019.3.22",
+  "description": "github multiple ssh keys",
+  "keywords": [
+    "github",
+    "ssh"
+  ],
+  "homepage": "https://github.com/looking-for-a-job/github-ssh",
+  "license": "Unlicense",
+  "bin": {
+    "github-ssh": "./scripts/github-ssh"
+  }
+}
