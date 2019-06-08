@@ -1,5 +1,6 @@
 <!--
 https://pypi.org/project/readme-generator/
+https://pypi.org/project/python-readme-generator/
 -->
 
 [![](https://img.shields.io/badge/OS-Unix-blue.svg?longCache=True)]()
@@ -30,7 +31,7 @@ Host *
     Include config.d/*/*
 ```
 
-#### CLI
+#### Scripts usage
 ```bash
 usage: github-ssh username
 ```
@@ -56,5 +57,5 @@ $ git remote add github git@username.github.com:username/repo.git
 +   [github settings -> SSH keys](https://github.com/settings/keys)
 
 <p align="center">
-    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
 </p>
