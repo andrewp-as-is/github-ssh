@@ -5,10 +5,11 @@ usage() {
     cat <<EOF 1>&2
 usage: $(basename $0) username
 EOF
-    [[ $1 == "-h" ]] || [[ $1 == "--help" ]]; exit
+    [ "$1" = "-h" ] || [ "$1" = "--help" ]; exit
 }
 
-[[ $1 == "-h" ]] || [[ $1 == "--help" ]] && usage "$@"
+[ "$1" = "-h" ] || [ "$1" = "--help" ] && usage "$@"
+
 [[ $# != 1 ]] && [[ -z "$1" ]] && usage
 
 username="$1"
